@@ -8,9 +8,10 @@
   font-size: 63px;
   font-weight: bold;
   line-height: 72px;
+  margin: 0 0 0 30px;
 }
 .services__list {
-  margin: 70px 0 0 5px;
+  margin: 70px 30px 0 35px;
   padding: 0;
   list-style: none;
 }
@@ -73,6 +74,9 @@
   border-width: 5px;
 }
 
+.content__breadcrumbs {
+  margin: 0 0 0 30px;
+}
 .breadcrumb__link {
   position: relative;
   color: #000;
@@ -93,6 +97,9 @@
   border-width: 5px;
 }
 
+.content__service {
+  margin: 0 30px;
+}
 .content__service h1 {
   font-size: 63px;
   margin: 35px 0;
@@ -151,6 +158,7 @@
 }
 .content__other_services {
   position: relative;
+  margin: 0 30px;
 }
 .content__other_services h2 {
   font-size: 36px;
@@ -198,12 +206,14 @@
   margin: 5px auto 20px;
 }
 .image__lead {
+  width: 100%;
   max-width: 978px;
 }
 .lead_image__description {
   font-size: 18px;
   line-height: 28px;
   padding: 0 6px;
+  margin: 0 24px 0 24px;
 }
 .image__body {
   width: 100%;

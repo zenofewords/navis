@@ -22,16 +22,15 @@ p {
 }
 .navigation {
   width: 100%;
-  max-width: 968px;
+  max-width: 1028px;
   display: flex;
   justify-content: space-between;
   margin: 64px auto 110px;
-  padding: 0 9px 0 0;
 }
 .menu {
   display: flex;
   list-style: none;
-  margin: 5px 0 0;
+  margin: 5px 30px 0 0;
 }
 .menu__link {
   color: #000;
@@ -47,6 +46,7 @@ p {
   padding: 5px 25px 5px 0;
   margin: 0;
   font-size: 16px;
+  pointer-events: none;
 }
 .language--selected {
   padding: 0 4px;
@@ -125,9 +125,14 @@ p {
   line-height: 18px;
 }
 
+.contact__text {
+  margin: 0 0 0 30px;
+}
+
 .image__logo {
   width: 160px;
   height: 45px;
+  margin: 0 0 0 30px;
 }
 .image__background {
   width: 100%;
@@ -135,12 +140,4 @@ p {
   position: absolute;
   opacity: 0.05;
   pointer-events: none;
-}
-.image__content {
-  width: 592px;
-  height: 527px;
-  padding: 26px 20px 20px;
-  border-right: 6px solid #000;
-  border-bottom: 6px solid #000;
-  border-left: 6px solid #000;
 }
