@@ -11,8 +11,20 @@ h1, h2 {
   font-family: 'Caladea', serif;
   margin: 0;
 }
+h1 {
+  font-size: 63px;
+  line-height: 72px;
+}
+h2 {
+  font-size: 48px;
+}
 p {
   margin: 0;
+  font-size: 29px;
+}
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 .header {
@@ -33,12 +45,10 @@ p {
   margin: 5px 30px 0 0;
 }
 .menu__link {
-  color: #000;
   font-size: 24px;
   font-weight: bold;
   line-height: 32px;
   letter-spacing: -0.5px;
-  text-decoration: none;
   margin: 0 38px 0 0;
   padding: 2px;
 }
@@ -67,6 +77,7 @@ p {
 .language__container {
   position: relative;
   height: 35px;
+  font-size: 16px;
 }
 .language__option {
   display: block;
@@ -75,16 +86,11 @@ p {
   position: absolute;
   left: 2px;
   font-size: 16px;
-  transition: all .3s;
+  transition: opacity .2s;
 }
 .language__container:hover .language__option {
   opacity: 1;
   pointer-events: initial;
-}
-.language__container:hover .menu__language:after {
-  top: 45px;
-  left: 30px;
-  border-color: transparent #000 transparent transparent;
 }
 
 .content {
@@ -97,20 +103,14 @@ p {
 }
 .footer__title {
   padding: 64px 0 0;
-  font-size: 48px;
-  font-weight: bold;
-  font-family: 'Caladea', serif;
   line-height: 66px;
   text-align: center;
 }
 .footer__text {
-  font-size: 29px;
   line-height: 39px;
   text-align: center;
 }
 .footer__text a {
-  color: #000;
-  text-decoration: none;
   font-weight: bold;
   border-bottom: 6px solid #D8D8D8;
 }
@@ -138,6 +138,62 @@ p {
   width: 100%;
   height: 850px;
   position: absolute;
-  opacity: 0.05;
+  opacity: 0.07;
   pointer-events: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 60px;
+    line-height: 69px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 26px;
+  }
+
+  .image__logo {
+    width: 128px;
+    height: 36px;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .navigation {
+    margin: 20px auto 34px;
+  }
+  .image__logo {
+    width: 80px;
+    height: 23px;
+    margin: 0 0 0 20px;
+  }
+  .image__background {
+    height: 405px;
+    object-fit: cover;
+  }
+  .menu {
+    display: none;
+  }
+
+  .header__blocks {
+    flex-direction: column;
+  }
+
+  .footer {
+    margin: 30px 0 0;
+  }
+  .footer__title {
+    padding: 45px 0 0;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .footer__text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .footer__copyright {
+    margin: 45px 0 0;
+  }
 }
