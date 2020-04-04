@@ -181,6 +181,11 @@ a {
     flex-direction: column;
   }
 
+  .contact__text {
+    font-size: 20px;
+    margin: 0 20px;
+  }
+
   .footer {
     margin: 30px 0 0;
   }
