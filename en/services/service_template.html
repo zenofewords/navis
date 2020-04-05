@@ -95,6 +95,73 @@
             </a>
           </li>
         </ul>
+
+        <div class="menu__container--mobile">
+          <form
+            class="language__container--mobile"
+            action="/"
+            method="get"
+          >
+            <select onchange="this.form.submit()">
+              <option>
+                EN
+              </option>
+              <option>
+                HR
+              </option>
+            </select>
+          </form>
+          <div class="menu__icon">
+            <label
+              for="menu__toggle"
+              class="screen_reader"
+            >
+              Menu toggle
+            </label>
+            <input
+              id="menu__toggle"
+              type="checkbox"
+            />
+            <span class="menu__line"></span>
+            <span class="menu__line"></span>
+            <span class="menu__line"></span>
+
+            <ul class="menu--mobile">
+              <li>
+                <a
+                  class="menu__link"
+                  href="/en"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  class="menu__link"
+                  href="../services.html"
+                >
+                  Services
+                </a>
+              </li>
+              <li>
+                <a
+                  class="menu__link"
+                  href="../products.html"
+                >
+                  Products
+                </a>
+              </li>
+              <li>
+                <a
+                  class="menu__link"
+                  href="../contact.html"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
