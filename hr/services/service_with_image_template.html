@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="../../css/services.css">
 
     <meta name="title" content="Navis" />
-    <meta name="description" content="" />
+    <meta name="description" content="Pružamo usluge razvoja cijelovitih poslovnih riješenja" />
     <meta name="keywords" content="" />
 
     <meta property="og:url" content="https://www.navis.hr/" />
@@ -32,7 +32,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="" />
     <meta name="twitter:image:alt" content="navis share image" />
-    <meta name="twitter:description" content="" />
+    <meta name="twitter:description" content="Pružamo usluge razvoja cijelovitih poslovnih riješenja" />
   </head>
 
   <body>
@@ -102,7 +102,16 @@
             action="/en"
             method="get"
           >
-            <select onchange="this.form.submit()">
+            <label
+              class="screen_reader"
+              for="language__select"
+            >
+              Odaberite jezik
+            </label>
+            <select
+              id="language__select"
+              onchange="this.form.submit()"
+            >
               <option>
                 HR
               </option>

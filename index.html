@@ -102,7 +102,16 @@
             action="/en"
             method="get"
           >
-            <select onchange="this.form.submit()">
+            <label
+              class="screen_reader"
+              for="language__select"
+            >
+              Odaberite jezik
+            </label>
+            <select
+              id="language__select"
+              onchange="this.form.submit()"
+            >
               <option>
                 HR
               </option>
