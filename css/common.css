@@ -269,6 +269,7 @@ a {
     transform-origin: 0 100%;
   }
   #menu__toggle:checked ~ .menu--mobile {
+    opacity: 1 !important;
     transform: translate(0, 0);
   }
   #menu__toggle:checked ~ .menu__line:nth-of-type(1) {
