@@ -125,8 +125,11 @@ a {
   line-height: 18px;
 }
 
-.contact__text {
+.contact__title {
   margin: 0 0 0 30px;
+}
+.contact__text {
+  margin: 70px 0 0 30px;
 }
 
 .image__logo {
@@ -293,9 +296,14 @@ a {
     flex-direction: column;
   }
 
+  .contact__title {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 0 0 0 20px;
+  }
   .contact__text {
     font-size: 20px;
-    margin: 0 20px;
+    margin: 20px;
   }
 
   .footer {
