@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 1038px;
   margin: 0 auto;
+  height: 624px;
 }
 .header__content h1 {
   max-width: 728px;
@@ -208,7 +209,7 @@
 @media only screen and (max-width: 880px) {
   .header__content {
     margin: 0 auto 30px;
-    height: 280px;
+    height: 250px;
   }
   .header__content h1 {
     font-size: 28px;
