@@ -247,7 +247,7 @@ a:hover {
     margin: 0;
     padding: 105px 0 0;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 105px);
 
     text-align: center;
     background-color: #fff;
